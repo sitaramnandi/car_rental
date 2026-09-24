@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dist-ssr
+
+# live runtime data — server/data/cars.seed.json IS tracked (it's the demo
+# seed); cars.json is NOT (it's the real, mutable database and must never be
+# overwritten by a git pull/deploy once real cars are added).
+server/data/cars.json
+
+# uploaded car images (runtime data, not source)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# env — never commit real secrets; .env.example stays tracked
+.env
+.env.local
+.env.*.local
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "1",
+    "name": "Toyota Innova Crysta",
+    "brand": "Toyota",
+    "model": "Innova Crysta",
+    "price_per_day": 2500,
+    "seats": 7,
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "description": "The Toyota Innova Crysta is the go-to choice for family trips and group travel — spacious, comfortable, and known for its reliability on long highway drives.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Bluetooth Audio",
+      "Reverse Camera",
+      "Third Row AC Vents"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493238792000-8113da705764?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-01T10:00:00Z",
+    "updated_at": "2026-06-01T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Honda City",
+    "brand": "Honda",
+    "model": "City",
+    "price_per_day": 1800,
+    "seats": 5,
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "description": "A refined sedan that blends fuel efficiency with a smooth ride — perfect for city commutes and weekend getaways.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Sunroof",
+      "Cruise Control"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1541443131876-44b03de101c5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-02T10:00:00Z",
+    "updated_at": "2026-09-24T13:07:29.316Z"
+  },
+  {
+    "id": "3",
+    "name": "Mahindra Thar",
+    "brand": "Mahindra",
+    "model": "Thar",
+    "price_per_day": 3200,
+    "seats": 4,
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "description": "Built for adventure. The Mahindra Thar delivers rugged off-road capability with a bold, modern design — ideal for hill stations and rough terrain.",
+    "features": [
+      "Air Conditioning",
+      "4x4 Drive Mode",
+      "Good Condition",
+      "Convertible Top",
+      "Off-Road Tyres"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-03T10:00:00Z",
+    "updated_at": "2026-06-03T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Maruti Suzuki Swift",
+    "brand": "Maruti Suzuki",
+    "model": "Swift",
+    "price_per_day": 1200,
+    "seats": 5,
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "description": "Compact, nimble and easy on fuel — the Swift is the smart choice for quick city errands and solo trips.",
+    "features": [
+      "Air Conditioning",
+      "Excellent Condition",
+      "Bluetooth Audio",
+      "Power Steering"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-04T10:00:00Z",
+    "updated_at": "2026-06-04T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Hyundai Creta",
+    "brand": "Hyundai",
+    "model": "Creta",
+    "price_per_day": 2800,
+    "seats": 5,
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "description": "A premium compact SUV offering a commanding driving position, generous boot space and a feature-packed cabin.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Sunroof",
+      "Ventilated Seats"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-05T10:00:00Z",
+    "updated_at": "2026-09-24T13:07:11.829Z"
+  },
+  {
+    "id": "6",
+    "name": "Kia Carnival",
+    "brand": "Kia",
+    "model": "Carnival",
+    "price_per_day": 4500,
+    "seats": 9,
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "description": "A luxury MPV built for large groups and corporate travel, with captain seats and a premium, hushed cabin.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Captain Seats",
+      "Rear Entertainment"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-06T10:00:00Z",
+    "updated_at": "2026-06-06T10:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Tata Nexon EV",
+    "brand": "Tata",
+    "model": "Nexon EV",
+    "price_per_day": 2200,
+    "seats": 5,
+    "fuel_type": "Electric",
+    "transmission": "Automatic",
+    "description": "Go green without compromising on style. The Nexon EV offers a silent, efficient ride with a comfortable city-friendly footprint.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Fast Charging",
+      "Connected App"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541443131876-44b03de101c5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "created_at": "2026-06-07T10:00:00Z",
+    "updated_at": "2026-06-07T10:00:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "price_per_day": 8500,
+    "seats": 5,
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "description": "Arrive in style. The E-Class offers a chauffeur-grade luxury experience for weddings, corporate events and special occasions.",
+    "features": [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Excellent Condition",
+      "Leather Seats",
+      "Ambient Lighting",
+      "Chauffeur Available"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+      "/uploads/0e0268f0-c623-4ed8-810a-f1340e0930be.webp"
+    ],
+    "available": true,
+    "created_at": "2026-06-08T10:00:00Z",
+    "updated_at": "2026-09-24T13:05:26.737Z"
+  },
+  {
+    "id": "1d1701ed-b914-4f13-b8e8-37a6bbe3c69f",
+    "name": "Skoda Slavia",
+    "brand": "Skoda",
+    "model": "Skoda Slavia-100",
+    "price_per_day": 1999,
+    "seats": 4,
+    "fuel_type": "Hybrid",
+    "transmission": "Manual",
+    "description": "The Skoda Slavia is for those people who love spending time behind the wheel as it offers an engaging drive experience. You get to choose from two fun turbo-petrol engine options. And that’s complemented by a chassis that offers a comfortable ride without the expense of handling. In typical Skoda fashion, you get a classy looking car. Build quality too is solid and is backed by a 5-star GNCAP rating.",
+    "features": [
+      "The Škoda Slavia is a feature-packed midsize sedan that offers a 5-star Global NCAP safety rating, powerful turbo-petrol engines, and a spacious cabin."
+    ],
+    "image_url": "/uploads/9a6ab67f-b5ed-481b-a9a4-d508a7d90df5.avif",
+    "gallery_images": [
+      "/uploads/9e3d45c5-2db4-4e38-b0fc-46ffcacafe94.avif",
+      "/uploads/1a87d57a-56a8-4d31-b471-00810fde0a95.avif"
+    ],
+    "available": true,
+    "created_at": "2026-09-24T13:13:04.957Z",
+    "updated_at": "2026-09-24T13:13:34.667Z"
+  }
+]
