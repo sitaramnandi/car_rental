@@ -34,17 +34,28 @@ export async function apiFetch(path, options = {}) {
     ...headers,
   };
 
-  const res = await fetch(`/api${path}`, {
-    ...rest,
-    headers: finalHeaders,
-    body: isFormData ? body : body !== undefined ? JSON.stringify(body) : undefined,
-  });
+  let res;
+  try {
+    res = await fetch(`/api${path}`, {
+      ...rest,
+      headers: finalHeaders,
+      body: isFormData ? body : body !== undefined ? JSON.stringify(body) : undefined,
+    });
+  } catch {
+    throw new Error("Could not reach the server. Is the API running?");
+  }
 
   const contentType = res.headers.get("content-type") || "";
   const data = contentType.includes("application/json") ? await res.json().catch(() => null) : null;
 
   if (!res.ok) {
     throw new Error(data?.error || `Request failed (${res.status})`);
+  }
+  if (data === null) {
+    // A 2xx response with no JSON body means this request never actually
+    // reached the API (e.g. the server is down and something else — Vite's
+    // dev server, a static host — answered instead).
+    throw new Error("Unexpected response from the server. Is the API running?");
   }
   return data;
 }
